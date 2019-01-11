@@ -10,6 +10,7 @@ import java.util.Date;
 import hello.livre.Auteur;
 import hello.livre.Cotisation;
 import hello.livre.Livre;
+import hello.livre.exceptions.BirthdateException;
 
 /**
  * @author Dell
@@ -20,8 +21,9 @@ public class Hello {
 	/**
 	 * @param args
 	 * @throws ParseException 
+	 * @throws BirthdateException 
 	 */
-	public static void main(String[] args) throws ParseException {
+	public static void main(String[] args) throws ParseException, BirthdateException {
 		// TODO Auto-generated method stub
 		System.out.println("Hello Java");
 		

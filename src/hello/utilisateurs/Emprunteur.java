@@ -34,7 +34,7 @@ public class Emprunteur extends Utilisateur implements emprunteurInterface {
 	 * @see hello.utilisateurs.interfaces.emprunteurInterface#returnBookk(hello.utilisateurs.Loueur, hello.livre.Livre)
 	 */
 	@Override
-	public Utilisateur returnBookk(Loueur loueur, Livre livre) {
+	public Utilisateur returnBook(Loueur loueur, Livre livre) {
 		// TODO Auto-generated method stub
 		return null;
 	}

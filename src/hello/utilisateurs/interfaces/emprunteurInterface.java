@@ -14,5 +14,5 @@ import hello.utilisateurs.Utilisateur;
 public interface emprunteurInterface {
 	public Utilisateur facturation();
 	public Utilisateur createBookBorrowing(Loueur loueur, Livre livre);
-	public Utilisateur returnBookk(Loueur loueur, Livre livre);
+	public Utilisateur returnBook(Loueur loueur, Livre livre);
 }
